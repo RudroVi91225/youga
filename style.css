@@ -1,3 +1,4 @@
+/* Home */
 .navigation {
 
 
@@ -53,6 +54,7 @@
 }
 
 .section2 {
+    font-size: x-large;
     background-color: #5f3c3c;
     height: 320px;
     margin: 30px 40px;
@@ -89,7 +91,7 @@
 }
 
 .section3 {
-
+    font-size: x-large;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 40px;
@@ -115,6 +117,80 @@
     background-color: rgb(77, 80, 72);
 }
 
+/* About */
+.aboutsection {
+    background-image: url("img/6.avif");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    border: 2px solid rebeccapurple;
+
+
+}
+
+.aboutnavigation {
+    font-size: xx-large;
+    margin-top: 220px;
+    margin-left: 60px;
+
+
+}
+
+.aboutnavigation li a {
+    text-decoration: none;
+}
+
+.aboutsection1 {
+    border: 2px solid red;
+    display: flex;
+    margin: 10px 60px;
+    padding: 20px 30px;
+}
+
+.section1details {
+    /* border: 2px solid yellow; */
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.section1details button {
+    margin-top: 40px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #3498db;
+
+    color: #fff;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+.button:hover {
+    background-color: #2980b9;
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        display: block;
+    }
+
+    .aboutsection1 {
+
+        display: block;
+    }
+}
+
+@media (min-width: 1025px) {}
 
 
 
@@ -168,6 +244,60 @@
     }
 
     .section3 {
+        display: inline-block;
+
+    }
+}
+
+@media (min-width: 1025px) {}
+
+/* Contact */
+
+
+.animation {
+    color: rgb(11, 121, 97);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #151515;
+}
+
+.circle1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #fe444425;
+    border-top: 3px solid red;
+    animation: ani 3s linear infinite;
+
+}
+
+.circle2 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #fee84422;
+    border-top: 3px solid yellow;
+    animation: ani 2s linear infinite;
+
+}
+
+@keyframes ani {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
         display: inline-block;
 
     }
