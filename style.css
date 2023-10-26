@@ -266,13 +266,9 @@
 }
 
 @media (min-width: 300px) and (max-width: 1024px) {
-    * {
-        background-color: yellow;
-    }
+    * {}
 }
 
 @media (min-width: 1025px) {
-    * {
-        background-color: red;
-    }
+    * {}
 }
