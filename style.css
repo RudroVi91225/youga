@@ -179,18 +179,7 @@
 
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    body {
-        display: block;
-    }
 
-    .aboutsection1 {
-
-        display: block;
-    }
-}
-
-@media (min-width: 1025px) {}
 
 
 
@@ -229,27 +218,7 @@
     padding: 30px;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    body {
-        display: inline-block;
 
-    }
-
-    body section {
-        display: inline-block;
-    }
-
-    .section2 {
-        display: inline-block;
-    }
-
-    .section3 {
-        display: inline-block;
-
-    }
-}
-
-@media (min-width: 1025px) {}
 
 /* Contact */
 
@@ -296,11 +265,14 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    body {
-        display: inline-block;
-
+@media (min-width: 300px) and (max-width: 1024px) {
+    * {
+        background-color: yellow;
     }
 }
 
-@media (min-width: 1025px) {}
+@media (min-width: 1025px) {
+    * {
+        background-color: red;
+    }
+}
