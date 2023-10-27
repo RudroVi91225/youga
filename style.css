@@ -1,3 +1,10 @@
+body {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+
+
 /* Home */
 .navigation {
 
@@ -119,27 +126,56 @@
 
 /* About */
 .aboutsection {
-    background-image: url("img/6.avif");
+    background-image: url("img/IMG-20231026-WA0011.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 600px;
     width: 100%;
+    margin-top: 10px;
     border: 2px solid rebeccapurple;
 
 
+}
+
+.contactsection1 {
+    font-size: 20px;
+}
+
+.contbtn {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.contactsection1 input {
+    width: 200px;
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 25px;
 }
 
 .aboutnavigation {
     font-size: xx-large;
     margin-top: 220px;
     margin-left: 60px;
+    color: antiquewhite;
 
 
 }
 
 .aboutnavigation li a {
     text-decoration: none;
+    color: antiquewhite;
 }
 
 .aboutsection1 {
@@ -192,11 +228,14 @@
 
 
     font-size: 16px;
-    color: #f3f3f3;
+    color: hsla(225, 12%, 93%, 0.836);
     padding-left: 20px;
-    padding-top: 150px;
-    margin-left: 20px;
-
+    padding-top: 0px;
+    margin: 10px 1px;
+    background-image: url("./img/IMG-20231026-WA0011.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    justify-content: space-between;
     font-size: xx-large;
     font-weight: bold;
 
@@ -204,7 +243,7 @@
 }
 
 .locasection1 {
-    display: flex;
+    display: block;
     margin: 20px;
 
     background-image: url('./img/IMG-20231026-WA0020.jpg');
@@ -222,14 +261,19 @@
 
 /* Contact */
 
+.contasection {
+    margin: 10px;
+}
 
 .animation {
+    margin-top: 10px;
     color: rgb(11, 121, 97);
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100vh;
     background-color: #151515;
+
 }
 
 .circle1 {
@@ -252,7 +296,12 @@
     border: 3px solid #fee84422;
     border-top: 3px solid yellow;
     animation: ani 2s linear infinite;
+    background-image: url("./img/IMG-20231026-WA0010.jpg");
 
+}
+
+#contarticlenth {
+    height: 140px;
 }
 
 @keyframes ani {
@@ -265,10 +314,10 @@
     }
 }
 
-@media (min-width: 300px) and (max-width: 1024px) {
+/* @media (min-width: 300px) and (max-width: 1024px) {
     * {}
 }
 
 @media (min-width: 1025px) {
     * {}
-}
+} */
