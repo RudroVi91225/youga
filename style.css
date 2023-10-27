@@ -42,7 +42,7 @@ body {
     padding-top: 300px;
     color: #fff;
     text-align: center;
-    border: 2px solid red;
+
     background-image: url('./img/IMG-20231026-WA0017.jpg');
 
     background-size: cover;
@@ -72,7 +72,7 @@ body {
     height: 320px;
     margin: 30px 40px;
     padding: 10px;
-    border: 2px solid salmon;
+
 }
 
 .section2 img {
@@ -109,9 +109,9 @@ body {
     margin-bottom: 0px;
     margin-left: 40px;
     margin-right: 40px;
-    border: 2px solid yellow;
+
     display: flex;
-    background-color: forestgreen;
+    background-color: rgba(31, 4, 30, 0.767);
 
 }
 
