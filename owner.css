@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lilita One', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Young Serif', serif;
+    text-indent: 20px;
+
+
+
+}
+
+.navigation {
+    background-color: rgb(184, 182, 194);
+}
+
+.navsection {
+
+    background-color: #412323;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.navsection a {
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    width: 30%;
+    background-color: rgb(207, 194, 192);
+}
+
+.bar {
+
+    width: 30px;
+    height: 4px;
+    background-color: rgb(238, 221, 229);
+    margin-top: 2px;
+    transition: 0.4s;
+}
+
+.navRight {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.navRight li {
+    display: inline;
+    padding: 50px;
+    font-size: large;
+
+    /* float: right; */
+
+}
+
+.header {
+    margin-top: 90px;
+    background-image: url("img/IMG-20231026-WA0010.jpg");
+    block-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 40px;
+
+
+}
+
+#enteremil {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    background-color: yellowgreen;
+    font-size: 16px;
+}
+
+#enteremil:focus {
+    outline: none;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+#headerbtn {
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+#experience {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.body {
+    display: flex;
+    margin-top: 30px;
+    word-spacing: 5px;
+}
+
+.body img {
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 400px;
+}
+
+#figcaption {
+    padding-left: 40px;
+}
+
+.section3 {
+    text-align: center;
+    word-spacing: 5px;
+}
+
+
+
+#colortext {
+    color: blue;
+    margin-top: 30px;
+}
+
+.section3 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: 16px;
+
+
+}
+
+.section3 button:hover {
+
+    background-color: #0056b3;
+}
+
+.footer {
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    background-color: rgb(77, 80, 72);
+}
