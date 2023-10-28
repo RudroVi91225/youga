@@ -1,14 +1,14 @@
 body {
     margin: 0px;
-    padding-top: 10px;
+
 }
 
 
 
 /* Navigation Section for all Page */
+
+
 .navigation {
-
-
     background-color: rgb(184, 182, 194);
 }
 
@@ -19,7 +19,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
@@ -28,12 +28,13 @@ body {
 .navsection a {
     font-weight: bold;
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
 }
 
 .navigation a:hover {
-    background-color: rgb(25, 153, 25);
+    width: 30%;
+    background-color: rgb(207, 194, 192);
 }
 
 /* Home Page */
@@ -290,13 +291,14 @@ body {
 
 /* Contact Page */
 .contactanimation {
-    margin: 20px;
+    padding-top: 20px;
     color: rgb(11, 121, 97);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: space-between;
     background-color: #151515;
+    width: 100%;
 
 
 }
