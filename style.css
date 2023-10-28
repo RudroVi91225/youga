@@ -19,9 +19,9 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    padding: 10px;
     display: grid;
-    justify-content: space-evenly;
-    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-columns: repeat(4, 1fr);
 
 }
 
@@ -123,7 +123,7 @@ body {
     height: 600px;
     width: 100%;
     margin-top: 10px;
-    border: 2px solid rebeccapurple;
+    border: 2px solid rgba(18, 18, 19, 0.041);
 
 
 }
@@ -258,12 +258,13 @@ body {
 .locasection1 {
     display: block;
     margin: 20px;
+    padding: 30px;
     background-image: url('./img/IMG-20231026-WA0020.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     justify-content: space-between;
-    padding: 30px;
+
 }
 
 .location {
@@ -367,7 +368,8 @@ body {
     }
 
     .section1 {
-        padding-top: 100px;
+        margin-top: 2px;
+        padding-top: 30px;
     }
 
     .section2 {
@@ -427,14 +429,15 @@ body {
 
     .contactanimation {
         display: inline-block;
-        width: 100%;
-        margin-left: 10px;
+        margin: 20px;
+        padding: 30px;
+
+        text-align: center;
 
     }
 
-    .contactsection2,
-    .contactsection3 {
-        margin: 30px;
+    .contactsection2 {
+        margin: 60px;
 
 
     }
