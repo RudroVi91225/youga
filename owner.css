@@ -26,7 +26,7 @@
     width: 100%;
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
 
 }
 
@@ -38,38 +38,15 @@
 }
 
 .navigation a:hover {
-    width: 30%;
+    width: 60%;
     background-color: rgb(207, 194, 192);
 }
 
-.bar {
-
-    width: 30px;
-    height: 4px;
-    background-color: rgb(238, 221, 229);
-    margin-top: 2px;
-    transition: 0.4s;
-}
-
-.navRight {
-    list-style-type: none;
-    text-align: center;
-
-}
-
-.navRight li {
-    display: inline;
-    padding: 50px;
-    font-size: large;
-
-    /* float: right; */
-
-}
 
 .header {
     margin-top: 90px;
     background-image: url("img/IMG-20231026-WA0010.jpg");
-    block-size: 100% auto;
+
     background-repeat: no-repeat;
     text-align: center;
     margin-left: 40px;
@@ -166,6 +143,44 @@
 }
 
 @media (min-width: 300px) and (max-width: 1024px) {
+
+    .navigation {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .navsection {
+        background-color: #412323;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20%;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+    .navsection a {
+        display: inline;
+        font-weight: bold;
+        color: #fff;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 2px;
+        margin-left: 0px;
+    }
+
+    .navigation a:hover {
+
+        width: 80%;
+        height: 50%;
+        background-color: rgb(207, 194, 192);
+    }
+
+
+
     .body {
         display: inline-block;
     }
