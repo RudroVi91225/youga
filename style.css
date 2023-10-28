@@ -41,9 +41,13 @@ body {
 
 /* Home Page */
 
+.mainhomesection {
+    margin-top: 20px;
+    padding-top: 10px;
+}
 
 .section1 {
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 250px;
     color: #fff;
     text-align: center;
@@ -288,6 +292,7 @@ body {
     background-repeat: no-repeat;
     justify-content: space-between;
 
+
 }
 
 .location {
@@ -389,6 +394,8 @@ body {
     * {
         margin: 0px;
         padding: 0px;
+
+
     }
 
     .navigation {
@@ -408,6 +415,12 @@ body {
     .navigation a:hover {
         width: 80%;
         background-color: rgb(207, 194, 192);
+    }
+
+    .mainhomesection,
+    .mainaboutsection {
+        width: 100%;
+        justify-content: space-between;
     }
 
     .section1 {
