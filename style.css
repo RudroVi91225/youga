@@ -5,7 +5,7 @@ body {
 
 
 
-/* Home */
+/* Navigation Section for all Page */
 .navigation {
 
 
@@ -36,26 +36,21 @@ body {
     background-color: rgb(25, 153, 25);
 }
 
-
+/* Home Page */
 .section1 {
     margin-top: 10px;
-    padding-top: 300px;
+    padding-top: 250px;
     color: #fff;
     text-align: center;
-
     background-image: url('./img/IMG-20231026-WA0017.jpg');
-
     background-size: cover;
-
-    background-position: center center;
-
+    background-position: center;
     background-repeat: no-repeat;
     height: 400px;
 }
 
 .section1 h1 {
     font-weight: bold;
-
     font-size: 80px;
 }
 
@@ -83,14 +78,10 @@ body {
 .button {
     padding: 10px 20px;
     background-color: #3498db;
-
     color: #fff;
-
     border: none;
     border-radius: 5px;
-
     cursor: pointer;
-
     font-size: 16px;
 
 }
@@ -102,7 +93,6 @@ body {
 
 .section3 {
     font-size: x-large;
-
     margin: 40px;
     padding: 15px;
     display: grid;
@@ -125,7 +115,7 @@ body {
 }
 
 /* About */
-.aboutsection {
+.aboutsection1 {
     background-image: url("img/IMG-20231026-WA0011.jpg");
     background-size: cover;
     background-position: center center;
@@ -156,17 +146,10 @@ body {
     margin: 5px;
 }
 
-.contactsection1 input {
-    width: 200px;
-    font-size: medium;
-    border: 2px solid black;
-    border-radius: 5px;
-    height: 25px;
-}
 
 .aboutnavigation {
     font-size: xx-large;
-    margin-top: 220px;
+    margin-top: 380PX;
     margin-left: 60px;
     color: antiquewhite;
 
@@ -178,15 +161,22 @@ body {
     color: antiquewhite;
 }
 
-.aboutsection1 {
-    border: 2px solid red;
+.aboutsection2 {
+    font-size: 18px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 50px;
-    padding: 25px;
+    padding: 60px;
 }
 
 
+.aboutsection3 input {
+    width: 200px;
+    font-size: medium;
+
+    border-radius: 5px;
+    height: 25px;
+}
 
 .section1details button {
     margin-top: 40px;
@@ -264,7 +254,18 @@ body {
 
 
 
-/* location */
+/* Location Page*/
+.locasection1 {
+    display: block;
+    margin: 20px;
+    background-image: url('./img/IMG-20231026-WA0020.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    padding: 30px;
+}
+
 .location {
 
 
@@ -283,32 +284,17 @@ body {
 
 }
 
-.locasection1 {
-    display: block;
+
+
+
+/* Contact Page */
+.contactanimation {
     margin: 20px;
-
-    background-image: url('./img/IMG-20231026-WA0020.jpg');
-
-    background-size: cover;
-
-    background-position: center center;
-
-    background-repeat: no-repeat;
-    justify-content: space-between;
-    padding: 30px;
-}
-
-
-
-/* Contact */
-.animation {
-    margin-top: 10px;
     color: rgb(11, 121, 97);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
     background-color: #151515;
 
 
@@ -371,6 +357,9 @@ body {
     }
 }
 
+
+
+/* Responsive for Pc vs Phone */
 @media (min-width: 300px) and (max-width: 1024px) {
     .navigation {
         display: grid;
@@ -393,16 +382,19 @@ body {
         display: inline-block;
     }
 
-    .aboutsection1 {
+    .aboutsection2 {
         display: inline-block;
         align-items: center;
         margin-left: 10px;
-
         width: 85%;
     }
 
-    .aboutsection1 img {
+    .aboutsection2 img {
         width: 80%;
+    }
+
+    .aboutsection3 {
+        margin-left: 25px;
     }
 
     .section1details {
@@ -415,7 +407,10 @@ body {
 
     .animation {
         display: inline-block;
-        background-color: #1a1919;
+        width: 100%;
+        margin: 10px;
+
+
     }
 
     .location {
@@ -423,17 +418,26 @@ body {
     }
 
     .locationiframe {
-        width: 50%;
+        width: 70%;
+        height: 80%;
 
     }
 
-    #contactsection2 {
-        margin: 20px;
-        padding: 20px;
+
+
+    .contactanimation {
+        display: inline-block;
+        width: 100%;
+        margin-left: 10px;
+
+    }
+
+    .contactsection2,
+    .contactsection3 {
+        margin: 30px;
+
 
     }
 }
 
-@media (min-width: 1025px) {
-    * {}
-}
+@media (min-width: 1025px) {}
