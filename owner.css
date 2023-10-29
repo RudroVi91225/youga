@@ -184,4 +184,10 @@
     .body {
         display: inline-block;
     }
+
+    .ownermainsection {
+        margin-top: 80px;
+        padding-top: 30px;
+
+    }
 }

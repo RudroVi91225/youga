@@ -431,6 +431,7 @@ body {
 
 
     .navigation {
+        margin-left: 0px;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
     }
@@ -562,8 +563,8 @@ body {
 
     /* Photo Page */
     .photoarticle {
-        margin-top: 50px;
-        padding-top: 30px;
+        margin-top: 80px;
+        padding-top: 40px;
     }
 
     .photosection1 {
